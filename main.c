@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-double my_sin(double x)  //musi byc my_sin zamiast sin bo wtedy funkcja wywo≥uje samπ siebie
+double my_sin(double x)  //musi byc my_sin zamiast sin bo wtedy funkcja wywo≈Çuje sam≈° siebie
 {
     return sin(x / 180. * 3.14);
     // x to tylko nazwa, tak nazywa ja pracownik (funkcja), pracodawca (main) ma to w dupie
